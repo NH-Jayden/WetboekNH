@@ -13,28 +13,44 @@ jobs:
       id-token: write
 
     steps:
+      # 1️⃣ Checkout de repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2️⃣ Cache pip packages voor snellere installaties
+      - name: Cache pip
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      # 3️⃣ Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
+      # 4️⃣ Installeer dependencies
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material
 
+      # 5️⃣ Build de MkDocs site
       - name: Build MkDocs site
         run: mkdocs build
 
+      # 6️⃣ Configure GitHub Pages (laatste versie)
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      # 7️⃣ Upload artifact (laatste versie, geen v3 meer)
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./site
 
+      # 8️⃣ Deploy naar GitHub Pages (laatste versie)
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v3
