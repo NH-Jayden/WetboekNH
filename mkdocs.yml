@@ -1,0 +1,69 @@
+site_name: Wetboek NewHaven
+
+theme:
+  name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Schakel naar donker thema
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Schakel naar licht thema
+  # Footer instellingen
+  footer:
+    navigation: false
+    text: ''  # Tekst blijft aanwezig in HTML, maar wordt via CSS verborgen
+
+nav:
+  - Home: index.md
+  - APV (Algemene Plaatselijke Verordening):
+      - Hoofdstuk 1 Algemene Richtlijnen: apv.md
+      - Hoofdstuk 2 Algemene Richtlijnen: apv2.md
+      - Hoofdstuk 3 Criminele activiteiten: apv3.md
+      - Hoofdstuk 4 Overheidsdiensten: apv4.md
+      - Hoofdstuk 5 Overige bepalingen: apv5.md
+      - Hoofdstuk 6 Slotbepalingen: apv6.md
+  - Wetboek:
+      - Algemene Bepalingen: Algemene Bepalingen.md
+      - Titel I - Vermogensdelicten: Vermogensdelicten.md
+      - Titel II - Geweldsdelicten: Geweldsdelicten.md
+      - Titel III - Verkeersdelicten: Verkeersdelicten.md
+      - Titel IV - Opiumwet: Opiumwet.md
+      - Titel V - Wet Wapens en Munitie: wwm.md
+      - Titel VII - Openbare orde en gezag: oog.md
+      - Hoofdstuk IX - Schadevergoedingen: Schadevergoedingen.md
+      - Hoofdstuk X - Douane en grenscontrole: deg.md
+      - Hoofdstuk XI - Opsporing en bewijs: oeb.md
+  - Douane:
+      - Douane Gebied: Douaneg.md
+      - Douane Regels: Douane.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/newhaven
+      name: Discord
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@NewHaven
+      name: YouTube
+
+plugins:
+  - search
