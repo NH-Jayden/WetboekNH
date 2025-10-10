@@ -16,8 +16,7 @@ De volgende documenten zijn beschikbaar op deze site:
 
 | Titel | Omschrijving | Uitnodiging |
 |-------|-------------|------------|
-| Newhaven Roleplay | Discord server voor algemene roleplay | [Klik hier](#) |
-| Newhaven Support | Support en hulp bij technische of rol-gerelateerde vragen | [Klik hier](#) |
-| Newhaven Bedrijven | Officiële particuliere bedrijven in Newhaven | [Klik hier](#) |
-| Newhaven Vliegschool | Officiële vliegschool van Newhaven | [Klik hier](#) |
-| Newhaven Overheid | Verzamelplaats voor alle overheidsorganisaties | [Klik hier](#) |
+| Newhaven Roleplay | Discord server voor algemene roleplay | [Klik hier](https://discord.gg/8h3D6jHPDz) |
+| Newhaven Support | Support en hulp bij technische of rol-gerelateerde vragen | [Klik hier](https://discord.gg/Sux2JUgzTe) |
+| Newhaven Onderwereld | Officiële onderwereld in Newhaven | [Klik hier](https://discord.gg/dp6T2JPXhy) |
+| Newhaven Overheid | Verzamelplaats voor alle overheidsorganisaties | [Klik hier](https://discord.gg/EnvSTBTW2w) |
