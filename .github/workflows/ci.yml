@@ -8,16 +8,19 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
 
     steps:
-      # 1️⃣ Checkout de repository
+      # 1️⃣ Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Cache pip packages voor snellere installaties
+      # 2️⃣ Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # 3️⃣ Cache pip packages
       - name: Cache pip
         uses: actions/cache@v3
         with:
@@ -26,31 +29,24 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      # 3️⃣ Set up Python
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      # 4️⃣ Installeer dependencies
+      # 4️⃣ Install dependencies
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material
 
-      # 5️⃣ Build de MkDocs site
-      - name: Build MkDocs site
+      # 5️⃣ Build MkDocs site
+      - name: Build site
         run: mkdocs build
 
-      # 6️⃣ Configure GitHub Pages (laatste versie)
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v4
-
-      # 7️⃣ Upload artifact (laatste versie, geen v3 meer)
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./site
-
-      # 8️⃣ Deploy naar GitHub Pages (laatste versie)
+      # 6️⃣ Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v3
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git clone --branch gh-pages https://github.com/${{ github.repository }} gh-pages
+          rm -rf gh-pages/*
+          cp -r site/* gh-pages/
+          cd gh-pages
+          git add .
+          git commit -m "Deploy MkDocs site"
+          git push origin gh-pages --force
