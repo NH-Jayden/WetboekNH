@@ -18,14 +18,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Cache pip
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
       - name: Install dependencies
         run: pip install mkdocs mkdocs-material
 
@@ -36,22 +28,26 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Configure Git
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Clone or init gh-pages
-          if git ls-remote --exit-code --heads https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} gh-pages; then
-            git clone --branch gh-pages https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} gh-pages
+
+          # Init a temporary git repo
+          rm -rf deploy-temp
+          mkdir deploy-temp
+          cp -r site/* deploy-temp/
+          cd deploy-temp
+          git init
+          git remote add origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
+
+          # Check if gh-pages exists
+          if git ls-remote --heads origin gh-pages; then
+            git fetch origin gh-pages
+            git checkout gh-pages
           else
-            git clone https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} gh-pages
-            cd gh-pages
             git checkout --orphan gh-pages
-            cd ..
           fi
 
-          rm -rf gh-pages/*
-          cp -r site/* gh-pages/
-          cd gh-pages
           git add .
           git commit -m "Deploy MkDocs site"
           git push origin gh-pages --force
