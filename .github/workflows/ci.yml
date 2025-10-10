@@ -1,53 +1,31 @@
-name: Deploy MkDocs site to GitHub Pages
-
+name: ci 
 on:
   push:
     branches:
+      - master 
       - main
-
+permissions:
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
-        run: pip install mkdocs mkdocs-material
-
-      - name: Build site
-        run: mkdocs build
-
-      - name: Deploy to gh-pages
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
         run: |
-          # Configure Git
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache 
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
 
-          # Init a temporary git repo
-          rm -rf deploy-temp
-          mkdir deploy-temp
-          cp -r site/* deploy-temp/
-          cd deploy-temp
-          git init
-          git remote add origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
-
-          # Check if gh-pages exists
-          if git ls-remote --heads origin gh-pages; then
-            git fetch origin gh-pages
-            git checkout gh-pages
-          else
-            git checkout --orphan gh-pages
-          fi
-
-          git add .
-          git commit -m "Deploy MkDocs site"
-          git push origin gh-pages --force
+      
