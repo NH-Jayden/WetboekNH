@@ -67,3 +67,8 @@ extra:
 
 plugins:
   - search
+
+# 👇 Dit zorgt ervoor dat je domein behouden blijft bij elke deploy
+extra_files:
+  - CNAME
+
