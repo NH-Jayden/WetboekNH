@@ -1,4 +1,5 @@
 site_name: Wetboek NewHaven
+site_description: De officiële website van de NewHaven Roleplay server – regels, voertuigen en RP-informatie.
 site_url: https://www.wetboek-nh.nl  # ✅ Nodig voor custom domain en canonical links
 
 theme:
