@@ -1,4 +1,5 @@
 site_name: Wetboek NewHaven
+site_url: https://www.wetboek-nh.nl  # ✅ Nodig voor custom domain en canonical links
 
 theme:
   name: material
@@ -17,10 +18,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Schakel naar licht thema
-  # Footer instellingen
   footer:
     navigation: false
-    text: ''  # Tekst blijft aanwezig in HTML, maar wordt via CSS verborgen
+    text: ""  # Tekst blijft aanwezig in HTML, maar wordt via CSS verborgen
 
 nav:
   - Home: index.md
@@ -67,8 +67,3 @@ extra:
 
 plugins:
   - search
-
-# 👇 Dit zorgt ervoor dat je domein behouden blijft bij elke deploy
-extra_files:
-  - CNAME
-
