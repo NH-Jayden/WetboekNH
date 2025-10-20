@@ -50,6 +50,8 @@ Alleen als een burger de volgende kledingstukken draagt, mag de desbetreffende p
 
 - Het willekeurig overvallen van burgers buiten illegale locaties zonder duidelijke roleplay-context of bewijs van betrokkenheid bij criminele activiteiten.
 
+- Een overval mag gestart worden vanaf 3 agenten zonder hostage mag de politie binnen vallen.
+
 **Bij overtreding: Straf volgens de 2e categorie (ban van 1 dag).**
 
 
