@@ -59,14 +59,23 @@ Alleen als een burger de volgende kledingstukken draagt, mag de desbetreffende p
 Tijdens een overval mag je enkel counteren als er GEEN politie aanwezig is op de locatie van de overval. Tijdens een achtervolging is het ook niet toegestaan om te counteren.
 
 
-##  ****Artikel 3.4 Rippen van wapens**
-Wat mag wat rippen?
+##  ****Artikel 3.4 Rippen**
+Algemene bepaling
+Rippen is alleen toegestaan onder duidelijke, controleerbare voorwaarden. Bij twijfel geldt: niet rippen.
 
+**Verboden locatie**
+Rippen op of binnen een straal van 500 meter van een pluk-/verwerklocatie is niet toegestaan.
 
-- Steek- slagwapen mag steek- slagwapen rippen. 
-- Steek- slagwapen mag vuurwapen rippen indien het vuurwapen niet op jou gericht is en je binnen armlengte van de persoon met het vuurwapen staat.
-- Met een vuurwapen mag je alles rippen.
+**Tijdslimiet en bewijs**
+Rippen is toegestaan binnen 10 minuten nadat je een persoon concreet hebt waargenomen met een wapen. Dit moet aantoonbaar zijn (bijvoorbeeld door ooggetuigen, screenshots of opname). Zonder concreet bewijs is rippen niet toegestaan.
 
+- Voorbeeld: persoon A wordt gezien met een vuurwapen; als er binnen 10 minuten wordt geripped en het bewijs kan worden geleverd, valt dit onder de toegestane gevallen.
+
+Regels per wapenklasse
+
+Steek-/slagwapen: je mag rippen van een persoon die een steek- of slagwapen gebruikt.
+
+Steek-/slagwapen → vuurwapen: iemand met een steek- of slagwapen mag een persoon met een vuurwapen rippen alleen indien het vuurwapen niet op hem/haar gericht is en er sprake is van directe nabijheid (bij twijfel: niet rippen).
 **Bij overtreding: Straf volgens de 3e categorie (ban van 2 dagen).**
 
 ## **Artikel 3.5 Hostages**
