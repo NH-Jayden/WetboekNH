@@ -59,7 +59,7 @@ Alleen als een burger de volgende kledingstukken draagt, mag de desbetreffende p
 Tijdens een overval mag je enkel counteren als er GEEN politie aanwezig is op de locatie van de overval. Tijdens een achtervolging is het ook niet toegestaan om te counteren.
 
 
-##  ****Artikel 3.4 Rippen**
+##  **Artikel 3.4 Rippen**
 Algemene bepaling
 Rippen is alleen toegestaan onder duidelijke, controleerbare voorwaarden. Bij twijfel geldt: niet rippen.
 
