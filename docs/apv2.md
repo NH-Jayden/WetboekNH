@@ -306,11 +306,7 @@ Ongepast taalgebruik omvat het gebruik van beledigende, kwetsende of ongepaste u
 - Het is acceptabel om een personage te identificeren aan de hand van zijn of haar stem, tenzij je de betreffende persoon volledig niet kent. 
 
 
-- Het is toegestaan om gebruik te maken van externe software om je stem te vervormen voor criminele activiteiten. Let op, dit dient normaal te blijven. Het gebruiken van robotstemmen en/of baby stemmen is derhalve verboden.
-
-
 - Het is te allen tijde toegestaan om een persoon te herkennen zonder maskers of gezichtsbedekkende kenmerken, zoals schmink of tatoeages die een masker nabootsen. Dit geldt ook indien de persoon zijn of haar haar heeft verwijderd.
-
 
 
 **Niet toegestaan**: 
@@ -318,6 +314,9 @@ Ongepast taalgebruik omvat het gebruik van beledigende, kwetsende of ongepaste u
 
 - Als je hoort dat een personage zijn/haar best doet om anders te praten dan normaal, dan mag de stem niet herkend worden. 
 
+- Het is niet toegestaan om een voicechanger te gebruiken uitsluitend Leden van de DSI.
+
+- Draagt persoon een masker mag je deze niet meer herkennen aan stem.
 
 **Bij overtreding: Straf volgens de 1e categorie (ban van 8 uur).**
 
