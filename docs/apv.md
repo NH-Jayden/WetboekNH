@@ -4,26 +4,18 @@ Allen die zich in New Haven bevinden, worden in gelijke gevallen gelijk behandel
 ## Artikel 1.2 Strafbepaling
 De straffen voor het overtreden van de regels binnen New Haven Roleplay zijn verdeeld in verschillende categorieën, afhankelijk van de ernst van de overtreding. Hier volgt een overzicht van de verschillende categorieën en de bijbehorende straffen:
 
-- **Categorie 1**: Een ban van maximaal 8 uur
-- **Categorie 2**: Een ban van maximaal 1 dag 
-- **Categorie 3**: Een ban van maximaal 2 dagen
-- **Categorie 4**: Een ban van maximaal 3 dagen
-- **Categorie 5**: Een ban van maximaal 1 week
-- **Categorie 6**: Een ban van maximaal 1 maand
-- **Categorie 7**: Een account wipe
-- **Categorie 8**: Permanente ban
+- **Categorie 1**: Een taakstraf van minimaal 150 taken.
+- **Categorie 2**: Een taakstraf van minimaal 250 taken.
+- **Categorie 3**: Een ban van maximaal 2 dagen.
+- **Categorie 4**: Een ban van maximaal 3 dagen.
+- **Categorie 5**: Een ban van maximaal 1 week.
+- **Categorie 6**: Een ban van maximaal 2 week.
+- **Categorie 7**: Een account wipe.
+- **Categorie 8**: Permanente ban.
 
 **Afwijking strafbepaling**:
 Staffleden hebben de bevoegdheid om af te wijken van bovenstaande straffen. Dit betekent dat zij op basis van hun oordeel en de specifieke omstandigheden van een overtreding een passende straf kunnen opleggen die kan verschillen van de standaardcategorieën. 
 
-
-**Warns/Kicks**:
-Bij lichtere overtredingen, vooral die binnen de eerste twee strafcategorieën vallen, kunnen spelers ook gewaarschuwd (warned) of tijdelijk uit de server gezet (kicked) worden. Dit kan resulteren in taakstraffen in plaats van directe bans:
-
-
-- **Eerste warn**:Eerste warn is 25 taakstraffen
-- **Tweede warn**:Tweede warn is 50 taakstraffen
-- **Derde warn**:Derde warn is 75 taakstraffen
 
 ## Artikel 1.3 Bevoegdheid tot wijziging van het APV
 De auteurs en beheerders van deze APV behouden zich het recht voor om op elk moment, zonder voorafgaande kennisgeving, wijzigingen, aanpassingen of updates aan dit document door te voeren.
