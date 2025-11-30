@@ -23,17 +23,13 @@ Advocaten die niet voor de justitie werken kun je niet als advocaat gebruiken, d
 ## **Artikel 6.4 Discord regels**
 de Discord is het de bedoeling dat je je ook daar aan de regels houdt. Hieronder volgen een aantal discord regels. Zodra je in de main-discord wordt gebanned zal je ook de stad niet in kunnen.
 
-## **Artikel 6.5 Schelden & racisme**
-Schelden met hedendaagse ziektes en racistische opmerkingen is niet toegestaan.
 
-**Bij overtreding: Straf volgens de 8e categorie (een permanente ban).**
-
-## **Artikel 6.6 Reclame**
+## **Artikel 6.5 Reclame**
 PM reclame is niet toegestaan.
 
 **Bij overtreding: Straf volgens de 8e categorie (een permanente ban).**
 
-## **Artikel 6.7 Gedragsregels**
+## **Artikel 6.6 Gedragsregels**
 Kloot gedrag, spam of onnodige discussies is niet toegestaan. Discussies uitvoeren is toegestaan maar houd het respectvol en netjes. 
 
 **Bij overtreding: Straf volgens de 1e categorie (bij 1e keer: 1 dag time-out).**
@@ -43,28 +39,28 @@ Wij vinden het belangrijk dat iedereen welkom is en zichzelf kan zijn, haatdrage
 
 **Bij overtreding: Straf volgens de 6e categorie (een ban van 1 maand)**
 
-## **Artikel 6.8 Earrape & Soundboards**
+## **Artikel 6.7 Earrape & Soundboards**
 Het earrapen in voice channels of soundboards aanzetten in voice channels is ook niet de bedoeling.
 
 **Bij overtreding: Straf volgens de 1e categorie (Microfoon mute en 1 dag time-out.)**
 
-## **Artikel 6.9 Staff taggen/berichten**
+## **Artikel 6.8 Staff taggen/berichten**
 Het taggen van stafleden is niet de bedoeling. Ook replies op staffleden is niet de bedoeling.
 
 **Bij overtreding: Straf volgens de 1e categorie (Microfoon mute en 1 dag time-out.)**
 
-## **Artikel 6.10 NSFW**
+## **Artikel 6.9 NSFW**
 Het versturen of streamen van pornografische/seksuele beelden zijn absoluut niet toegestaan.
 
 
 **Bij overtreding: Straf volgens de 8e categorie (een permanente ban).**
 
-## **Artikel 6.11 Talen**
+## **Artikel 6.10 Talen**
 Het is niet de bedoeling om in kanalen een andere taal te gaan spreken dan de Nederlandse. Dit zodat er een goede moderatie over blijft. 
 
 **Bij overtreding: Straf volgens de 1e categorie (Microfoon mute en 1 dag time-out.)**
 
-## **Artikel 6.12 Externe software**
+## **Artikel 6.11 Externe software**
 Programma’s waarmee jij je Discord modificeert of aanpast is niet toegestaan, een voorbeeld hiervan is BetterDiscord. Zodra wij zien dat je dit gebruikt zullen wij een hoge sanctie geven.
 
 
