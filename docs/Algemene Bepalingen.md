@@ -64,7 +64,7 @@ De verwerking van in beslag genomen goederen (met uitzondering van voertuigen) g
 
 - Wordt het voertuig eveneens kosteloos teruggegeven indien wordt aangetoond dat het voor het strafbare feit als gestolen was opgegeven (middels aangifte bij een ambtenaar in functie);
 
-- Indien de eigenaar van het goed is overleden, moet het voertuig volgens de standaardregels worden uitgekocht;
+- Indien het voertuig is in beslag genomen heeft de eigenaar 1 week de tijd om deze bij de impound op te halen, Wordt dit niet gedaan zal deze geveild bij een cardealer.
 
 - Een advocaat die een hOvJ of OvJ inschakelt, heeft altijd recht op 48 uur extra om bewijs op te vragen vanaf het moment van inschakeling.
 
